@@ -106,6 +106,6 @@ function randomColor(){
     var g=Math.floor(Math.random()*256);
     //pick a 'blue'from 0-255
     var b=Math.floor(Math.random()*256);
-
+    
     return "rgb(" + r +", "+g+", "+b+")"; 
 }
